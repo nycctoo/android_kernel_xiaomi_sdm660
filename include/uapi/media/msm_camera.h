@@ -263,11 +263,15 @@ struct msm_mctl_post_proc_cmd {
 #define MSM_CAMERA_STROBE_FLASH_NONE 0
 #define MSM_CAMERA_STROBE_FLASH_XENON 1
 
+<<<<<<< HEAD
 #ifdef CONFIG_MACH_XIAOMI_NEW_CAMERA
 #define MSM_MAX_CAMERA_SENSORS  7
 #else
 #define MSM_MAX_CAMERA_SENSORS  6
 #endif
+=======
+#define MSM_MAX_CAMERA_SENSORS  7
+>>>>>>> 680127eedf2e (drivers: msm: camera_v2: fix new version)
 #define MAX_SENSOR_NAME 32
 #define MAX_CAM_NAME_SIZE 32
 #define MAX_ACT_MOD_NAME_SIZE 32
