@@ -197,14 +197,7 @@ struct msm_camera_sensor_board_info {
 #ifdef CONFIG_MACH_XIAOMI_SDM660
 	struct msm_vendor_id_info_t *vendor_id_info;
 	struct msm_vcm_id_info_t *vcm_id_info;
-<<<<<<< HEAD
-#ifdef CONFIG_MACH_XIAOMI_NEW_CAMERA
-    struct msm_lens_id_info_t *lens_id_info;
-#endif
-#endif
-=======
 	struct msm_lens_id_info_t *lens_id_info;
->>>>>>> 680127eedf2e (drivers: msm: camera_v2: fix new version)
 	struct msm_camera_csi_lane_params *csi_lane_params;
 	struct msm_camera_sensor_strobe_flash_data *strobe_flash_data;
 	struct msm_actuator_info *actuator_info;
