@@ -18,6 +18,8 @@ gen_toolchain
 
 send_msg "Start building ${KERNELNAME} ${LOCALVERSION} for ${DEVICES}..."
 
+send_msg "Starting building stock version..."
+
 START=$(date +"%s")
 
 for i in ${DEVICES//,/ }
