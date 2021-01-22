@@ -322,11 +322,7 @@ void msm_vfe48_stats_cfg_ub(struct vfe_device *vfe_dev)
 {
 	int i;
 	uint32_t ub_offset = 0, stats_burst_len;
-<<<<<<< HEAD
-#ifdef CONFIG_MACH_XIAOMI_NEW_CAMERA
-=======
 #ifdef CONFIG_XIAOMI_NEW_CAMERA_BLOBS
->>>>>>> 512fa60fff64 (drivers: msm: camera_v2: Make unified for Newer and older camera blobs)
 	uint32_t ub_size[VFE47_NUM_STATS_TYPE] = {
 		80, /* MSM_ISP_STATS_HDR_BE */
 		64, /* MSM_ISP_STATS_BG */
@@ -340,18 +336,6 @@ void msm_vfe48_stats_cfg_ub(struct vfe_device *vfe_dev)
 	};
 #else
     uint32_t ub_size[VFE47_NUM_STATS_TYPE] = {
-<<<<<<< HEAD
-        16, /* MSM_ISP_STATS_HDR_BE */
-        16, /* MSM_ISP_STATS_BG */
-        16, /* MSM_ISP_STATS_BF */
-        16, /* MSM_ISP_STATS_HDR_BHIST */
-        16, /* MSM_ISP_STATS_RS */
-        16, /* MSM_ISP_STATS_CS */
-        16, /* MSM_ISP_STATS_IHIST */
-        16, /* MSM_ISP_STATS_BHIST */
-        16, /* MSM_ISP_STATS_AEC_BG */
-    };
-=======
 		16, /* MSM_ISP_STATS_HDR_BE */
 		16, /* MSM_ISP_STATS_BG */
 		16, /* MSM_ISP_STATS_BF */
@@ -362,7 +346,6 @@ void msm_vfe48_stats_cfg_ub(struct vfe_device *vfe_dev)
 		16, /* MSM_ISP_STATS_BHIST */
 		16, /* MSM_ISP_STATS_AEC_BG */
 	};
->>>>>>> 512fa60fff64 (drivers: msm: camera_v2: Make unified for Newer and older camera blobs)
 #endif
 
 	stats_burst_len = VFE48_STATS_BURST_LEN;
