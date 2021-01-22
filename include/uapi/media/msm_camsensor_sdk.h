@@ -304,7 +304,6 @@ struct msm_sensor_id_info_t {
 	unsigned short sensor_id_mask;
 };
 
-#ifdef CONFIG_MACH_XIAOMI_SDM660
 enum msm_cci_i2c_master_t {
 	MSM_MASTER_0,
 	MSM_MASTER_1,
