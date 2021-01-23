@@ -1,10 +1,10 @@
 #!/bin/bash
 
-export KERNELNAME="CK"
+export KERNELNAME="dannn"
 
 export LOCALVERSION=0.1
 
-export KBUILD_BUILD_USER=Peter
+export KBUILD_BUILD_USER=dannn
 
 export KBUILD_BUILD_HOST=DroneCI
 
